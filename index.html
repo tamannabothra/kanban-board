@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Kanban Board</title>
+    <link rel="stylesheet" type="text/css" href="kanban.css">
+</head>
+<body>
+    <h1 style="text-align: center; color: blanchedalmond;">KANBAN BOARD</h1>
+    <div class="kanban-board">
+        <div class="column">
+            <h2>To-Do</h2>
+            <div class="task-input">
+                <input type="text" id="new-task-input" style="font-size: 20px;" placeholder="New Task" />
+                <button id="add-task-button" style="font-size: 20px;">Add Task</button>
+
+            </div>
+            <div class="task" draggable="true">Task 1</div>
+            <div class="task" draggable="true">Task 2</div>
+        </div>
+        <div class="column">
+            <h2>In Progress</h2>
+        </div>
+        <div class="column">
+            <h2>Done</h2>
+        </div>
+    </div>
+    
+    
+    <script src="kanban.js"></script>
+    <footer>
+        Made by : Tamanna Bothra
+    </footer>
+</body>
+</html>

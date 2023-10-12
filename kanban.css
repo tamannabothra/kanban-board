@@ -1,0 +1,43 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: black;
+    font-size: 20px;
+}
+
+.kanban-board {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    color: rgb(21, 240, 21);
+    font-size: 20px;
+}
+
+.column {
+    flex: 1;
+    background-color: #f1f1f1;
+    color: rgb(21, 240, 21);
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    font-size: 20px;
+}
+
+.task {
+    background-color: #fff;
+    color: rgb(21, 240, 21);
+    border: 1px solid #ccc;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+}
+footer {
+    text-align: center;
+    background-color: #424446;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+
+}
